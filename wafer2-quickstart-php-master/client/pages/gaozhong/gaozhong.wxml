@@ -1,0 +1,7 @@
+<text class="title">高中文言文\n</text>
+   <button wx:for="{{requestAutor}}" wx:for-index="index" type='primary' class="content"
+ bindtap="{{flag}}" id="{{index+16}}">
+{{requestTitle[index]}}
+{{requestAutor[index]}}
+</button>
+

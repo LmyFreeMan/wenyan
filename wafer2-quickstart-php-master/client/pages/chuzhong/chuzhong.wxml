@@ -1,0 +1,7 @@
+<text class="title">初中文言文\n</text>
+   <button wx:for="{{requestAutor}}" wx:for-index="index" type='primary' class="content"
+ bindtap="{{flag}}" id="{{index}}">
+{{requestTitle[index]}}
+{{requestAutor[index]}}
+</button>
+

@@ -1,0 +1,17 @@
+.title
+{
+  font-size: 30px;
+  margin-left: 80px;
+}
+.autor
+{
+  position: absolute;
+  margin-left: 300px;
+}
+.content
+{
+  margin-left: 10px;
+}
+page{
+       background: linear-gradient(to right, lightgoldenrodyellow, lightyellow);
+}

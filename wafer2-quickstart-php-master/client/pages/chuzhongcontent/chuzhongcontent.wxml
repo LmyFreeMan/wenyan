@@ -1,0 +1,7 @@
+<text class="title">{{title}}\n</text>
+<text class="autor">{{autor}}</text>
+<view class="content">
+<text >\n{{content}}\n</text>
+</view>
+ 
+<text >翻译：\n{{translate}}</text>

@@ -1,0 +1,36 @@
+<view class="up">
+<icon type="search" size="30" color='purple'/>
+<form class="page__bd" catchsubmit="formSubmit" catchreset="formReset">
+ <input class="weui-input" maxlength="10" placeholder="请输入您要查询的内容" bindinput="search" name="name" value="{{name}}" />
+ <button  formType="submit">查询</button>
+
+ <scroll-view scroll-y="true" class="scrollview">
+  <view wx:for="{{bindSource}}">
+    <view id="{{bindSource}}" bindtap='change'>{{bindSource}}</view>
+  </view>
+</scroll-view>
+ </form>
+</view>
+<swiper indicator-dots="true"
+  autoplay="true" interval="1000" duration="500"  style='height:150px;margin-left:30px;z-index:99999'>
+  <block wx:for="{{imgUrls}}" wx:key="imgUrls">
+    <swiper-item>
+      <image src="{{item}}"  width="500px" height="100%"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="main">
+<view class="middle" s>
+<button  size="defalut"  type="primary"
+        disabled="{{disabled}}" bindtap="chuzhong"
+        >初中文言文</button>
+    </view>
+    <view class="middle">
+<button type="primary" size="{{primarySize}}"  
+        disabled="{{disabled}}" bindtap="gaozhong" class="distance">高中文言文 </button>
+        </view>
+        <view class="middle">
+<button type="primary" size="{{primarySize}}" 
+          open-type="contact" session-from="weapp" class="distance">联系我们</button>
+            </view>
+</view>

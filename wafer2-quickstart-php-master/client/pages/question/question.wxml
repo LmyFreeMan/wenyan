@@ -1,0 +1,3 @@
+<text class="title">答题天地\n</text>
+<text>{{question}}\n</text>
+<text>{{answer}}</text>

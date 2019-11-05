@@ -1,0 +1,8 @@
+.title
+{
+  font-size: 30px;
+  margin-left: 120px;
+}/* pages/addCgi/question.wxss */
+page{
+       background: linear-gradient(to right, lightgoldenrodyellow, lightyellow);
+}

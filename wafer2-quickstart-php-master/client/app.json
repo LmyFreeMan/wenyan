@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/question/question",
+    "pages/chuzhong/chuzhong",
+    "pages/gaozhong/gaozhong",
+    "pages/chuzhongcontent/chuzhongcontent",
+    "pages/connect/connect"
+  ],
+  "window":{
+    "backgroundColor":"#F6F6F6",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "文言天地",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#FF0000",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "文言天地",
+        "iconPath": "images/book.png",
+        "selectedIconPath": "images/book.png"
+      },
+      {
+        "pagePath": "pages/question/question",
+        "text": "习题练习",
+          "iconPath": "images/test.png",
+          "selectedIconPath": "images/test.png"
+      },
+      {
+        "pagePath": "pages/connect/connect",
+        "text": "联系我们",
+          "iconPath": "images/great.png",
+          "selectedIconPath": "images/great.png"
+      }
+    ]
+  }
+}
